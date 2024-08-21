@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt 
 #o codigo buscara o documento dentro da pasta raiz...descomente a linha abaixo para ler apartir do git hub
-#DADOS = pd.read_excel("https://github.com/AngeloDev-New/UA-21-08-2024/raw/main/65561consumo.xlsx",sheet_name='consumo_resolução')
+DADOS = pd.read_excel("https://github.com/AngeloDev-New/UA-21-08-2024/raw/main/65561consumo.xlsx",sheet_name='consumo_resolução')
 
 try:
     print(DADOS["Tempo"])
@@ -104,7 +104,7 @@ def questionD():
     plt.legend()
     plt.show()
 
-#questionA()
-#questionB()
-#questionC()
-#questionD()
+questionA()
+questionB()
+questionC()
+questionD()
